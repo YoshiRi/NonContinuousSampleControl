@@ -1,0 +1,20 @@
+figure(2)
+plot(time,x(1,:),'g--',timec,xest_c(1,:),'r*-',ytime,xest(1,:),'bo')
+grid on 
+xlabel('time [s]')
+ylabel('Position')
+legend('Ground Truth','Constant sample','Non-constant sample')
+
+figure(3)
+plot(time,x(2,:),'g--',timec,xest_c(2,:),'r*-',ytime,xest(2,:),'bo-')
+grid on 
+xlabel('time [s]')
+ylabel('Velocity')
+legend('Ground Truth','Constant sample','Non-constant sample')
+
+figure(4)
+plot(time,x(3,:),'g--',timec,xest_c(3,:),'r*-',ytime,xest(3,:),'bo-')
+grid on 
+xlabel('time [s]')
+ylabel('Position')
+legend('Ground Truth','Constant sample','Non-constant sample')

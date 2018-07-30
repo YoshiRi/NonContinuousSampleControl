@@ -1,0 +1,13 @@
+%% 
+clear
+close all
+
+%% make data and show reference
+MakeRefData;
+
+%% Obserbation
+NomalObserber;
+
+%% show
+figure(2)
+plot(time,x(1,:),ytime,xest(1,))
