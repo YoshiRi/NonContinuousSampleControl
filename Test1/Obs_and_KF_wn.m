@@ -33,7 +33,7 @@ end
 
 Pinit = 10000*eye(3);
 s_sys =  0.1;
-s_obs = 1e-10;
+s_obs = 1e-11;
 
 xest_kf = zeros(3,ylen);
 P = zeros(3,3,ylen);
