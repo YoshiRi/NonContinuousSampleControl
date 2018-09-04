@@ -1,0 +1,9 @@
+function GitComiiter(message)
+ if varargin < 1
+     message = "AutoMaticUpdate"
+
+!git add .
+!git commit -m "AutoMaticUpdate"
+!git push origin master
+
+ end
